@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+  .Logo-img img {
+    width: 80% !important;
+    padding-left: 1rem;
+  }
+
+  .Menu {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1050px) {
+  .Logo-img img {
+    width: 50% !important;
+    padding-left: 1rem;
+  }
+}
+
+.Header-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.Header {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+}
+
+.Navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Logo-img {
+  margin-top: 5px;
+  width: 60%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 40%;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link,
+a {
+  text-decoration: none;
+}
+
+.homeIcon {
+  font-size: 1.5rem;
+}

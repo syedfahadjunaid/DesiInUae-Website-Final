@@ -1,0 +1,334 @@
+@media only screen and (max-width: 600px) {
+  /* .About-section-1-flag {
+    width: 100%;
+  } */
+  .about-section-small-logo {
+    display: flex !important;
+    width: 100% !important;
+  }
+
+  .about-section-1-flag {
+    /* display: flex !important;
+    width: 100% !important;
+    height: 400px !important;
+    justify-content: center !important;
+    align-items: center !important; */
+    display: none !important;
+  }
+  /* .about-section-1-flag > img {
+    width: 100% !important;
+    object-fit: cover !important;
+    margin-right: 20px !important;
+    
+  } */
+  .About-section-2-cards {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    width: 100%;
+  }
+
+  .About-Body-BreadCrumbs {
+    width: 50% !important;
+    margin-bottom: 50px;
+  }
+
+  .About-section-main {
+    display: flex;
+    width: 100%;
+  }
+  .About-section-main-heading-section {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .About-section-main-heading {
+    font-size: 54px !important;
+    font-weight: 500;
+    line-height: 10px !important;
+    letter-spacing: 0em;
+  }
+
+  .About-section-main-logos {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    margin-bottom: 50px !important;
+  }
+
+  .About-section-main-logos > img {
+    margin-right: 20px;
+  }
+
+  .About-Cards-Section {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .card-image-section {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .card-image-section > img {
+    width: 250px !important;
+    height: 250px !important;
+    outline: 1px solid red !important;
+  }
+
+  .About-section-3-heading {
+    width: 100% !important;
+  }
+  .about-heading {
+    font-size: 24px !important;
+  }
+
+  .About-section-5-heading {
+    font-size: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 601px) {
+  .about-section-small-logo {
+    display: none !important;
+  }
+
+  .flag-text {
+    bottom: 0rem !important;
+    right: 3rem !important;
+    color: white;
+    font-size: 1rem;
+  }
+  .About-section-2-cards {
+    gap: 2rem;
+  }
+
+  .card {
+    width: 60% !important;
+  }
+  .card > img {
+    width: 100% !important;
+  }
+  .About-Cards-Section > .card-text {
+    text-align: left !important;
+  }
+
+  .About-Cards-Section {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .card-image-section {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .card-image-section > img {
+    width: 250px !important;
+    height: 250px !important;
+    outline: 1px solid red !important;
+  }
+}
+
+.About-Body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-Body-SubSection {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.about-section-small-logo {
+  display: none;
+}
+
+/* .About-section-1-flag {
+  width: 100%;
+} */
+
+.about-section-1-flag > img {
+  width: 100%;
+  height: 100%;
+}
+
+.About-Body-BreadCrumbs {
+  width: 13%;
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.About-Body-BreadCrumbs button {
+  width: 70px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.About-section-main {
+  display: flex;
+  width: 100%;
+}
+
+.About-section-main-heading-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.About-section-main-heading {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 75px;
+  font-weight: 500;
+  line-height: 113px;
+  letter-spacing: 0em;
+}
+
+.About-section-5-content > p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+
+.About-section-5-heading {
+  align-self: flex-start;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+}
+
+.About-section-main-logos {
+  display: flex;
+  width: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.About-section-2-cards {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.About-Cards-Section {
+  display: flex;
+  width: 30%;
+  height: max-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-Cards-Section > .card-text {
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.card-image-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.card-image-section > img {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+  border: none;
+  border-radius: 50%;
+  object-fit: contain;
+  border: none;
+  border-radius: 50%;
+  outline: 1px solid red;
+}
+
+.card-image-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 1rem;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 4px;
+  width: 120%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.About-section-3-heading {
+  margin: 60px;
+  background: -webkit-linear-gradient(90deg, #fe8518 -38.27%, #2ef993 103.03%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-heading {
+  text-align: center;
+  background: linear-gradient(to right, #fe8518, #2ef993);
+  -webkit-background-clip: text; /* For webkit browsers (optional) */
+  color: transparent;
+  font-size: 50px;
+}
+
+.About-section-4-slider {
+  margin: 40px;
+}
+
+.About-section-4-slider > img {
+  width: 100%;
+}
+
+.About-section-5-content {
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
